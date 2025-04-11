@@ -1,0 +1,6 @@
+streamlit
+pytesseract
+pillow
+python-dotenv
+pymongo
+requests
