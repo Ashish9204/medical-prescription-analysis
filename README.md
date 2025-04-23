@@ -26,18 +26,22 @@ The Medical Prescription Analyzer is a web-based application that allows users t
 
 #### Home Page
 ![Home Page](screenshots/home_page.png)
+
 *The main interface where users can upload prescription images*
 
 #### Text Extraction
 ![Text Extraction](screenshots/text_extraction.png)
+
 *OCR in action extracting text from a prescription image*
 
 #### Chat Interface
 ![Chat Interface](screenshots/chat_interface.png)
+
 *AI-powered chat interface analyzing prescription data*
 
 #### Prescription Database
 ![Prescription Database](screenshots/prescription_database.png)
+
 *View of stored prescriptions in the database*
 
 ## 🛠️ Technologies Used
