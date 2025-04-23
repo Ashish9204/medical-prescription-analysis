@@ -18,7 +18,7 @@ The Medical Prescription Analyzer is a web-based application that allows users t
 ## 🎬 Demo
 
 ### Project Video
-[![Medical Prescription Analyzer Demo](screenshots/project_working.mkv)
+[![Medical Prescription Analyzer Demo](https://img.youtube.com/vi/U1-Wnqwt1uY/0.jpg)](https://www.youtube.com/watch?v=U1-Wnqwt1uY)
 
 *Click the image above to watch the demo video*
 
