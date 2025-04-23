@@ -15,6 +15,31 @@ The Medical Prescription Analyzer is a web-based application that allows users t
 - 📊 **Prescription Management**: View and manage all stored prescriptions
 - 💬 **Direct Medical Chat**: Ask general medical questions without prescription data
 
+## 🎬 Demo
+
+### Project Video
+[![Medical Prescription Analyzer Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
+*Click the image above to watch the demo video*
+
+### Screenshots
+
+#### Home Page
+![Home Page](screenshots/home_page.png)
+*The main interface where users can upload prescription images*
+
+#### Text Extraction
+![Text Extraction](screenshots/text_extraction.png)
+*OCR in action extracting text from a prescription image*
+
+#### Chat Interface
+![Chat Interface](screenshots/chat_interface.png)
+*AI-powered chat interface analyzing prescription data*
+
+#### Prescription Database
+![Prescription Database](screenshots/prescription_database.png)
+*View of stored prescriptions in the database*
+
 ## 🛠️ Technologies Used
 
 - **Frontend**: Streamlit
@@ -37,8 +62,8 @@ The Medical Prescription Analyzer is a web-based application that allows users t
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Medical-Document-Analysis.git
-cd Medical-Document-Analysis
+git clone https://github.com/Ashish9204/medical-prescription-analysis.git
+cd medical-prescription-analysis
 ```
 
 2. Install required packages:
@@ -47,10 +72,14 @@ pip install -r requirements.txt
 ```
 
 3. Install system dependencies:
-```bash
-apt-get update && apt-get install -y tesseract-ocr
-```
-(For Windows users, download and install Tesseract OCR from the official website)
+   - For Windows:
+     ```bash
+     # Download and install Tesseract OCR from https://github.com/UB-Mannheim/tesseract/wiki
+     ```
+   - For Linux:
+     ```bash
+     apt-get update && apt-get install -y tesseract-ocr
+     ```
 
 4. Create a `.env` file in the project root with your API keys:
 ```
@@ -93,7 +122,7 @@ The application supports both local development and cloud deployment:
 
 ## 📊 Sample Data
 
-The repository includes a Sample Datasets folder with prescription images for testing.
+The repository includes sample prescription images in the `sample_data` folder for testing purposes.
 
 ## 🔒 Security Note
 
@@ -102,6 +131,24 @@ This application handles sensitive medical information. Ensure you:
 - Protect your API keys
 - Deploy with appropriate security measures
 - Do not use the AI medical advice as a replacement for professional medical consultation
+
+## 📄 License
+Copyright © 2025 Ashish
+
+*ALL RIGHTS RESERVED.*
+
+This project and its associated files may not be copied, modified, distributed, or used for any commercial purpose without explicit permission from the author. Redistribution, modification, or commercial use of this code is strictly prohibited. Permission to use this code for personal or academic research purposes is granted only with prior written consent from the author.
+
+## 👥 Contributors
+
+- [Himanshu Kumar](https://github.com/dav1552)
+
+## 🙏 Acknowledgements
+
+- [Streamlit](https://streamlit.io/) for the amazing web framework
+- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) for text extraction capabilities
+- [Mistral AI](https://mistral.ai/) for the powerful language model
+- [MongoDB](https://www.mongodb.com/) for database services
 
 ---
 
